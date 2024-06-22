@@ -1,0 +1,61 @@
+/* style.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f9fa;
+}
+
+.login-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.header .logo {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.inputSubmit {
+    background-color: dodgerblue;
+    border: none;
+    padding: 0.75rem;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.inputSubmit:hover {
+    background-color: deepskyblue;
+}
+
+a {
+    display: block;
+    margin-top: 1rem;
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
